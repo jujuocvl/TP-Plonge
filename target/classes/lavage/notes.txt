@@ -1,0 +1,8 @@
+Question 1: 
+Y a-t-il des incohérences - doublon de numéro d'assiette ; nombre d'assiettes incohérent ? 
+Regarder dans le code et expliquer comment la classe Assiette est préservée des incohérences entre threads.
+
+Il n'y a pas d'incohérences car la pile d'assiettes est synchronisée
+
+Question 2:
+Expliquer pourquoi le thread représentant l'essuyeur ne peut prendre d'assiette dans la pile.

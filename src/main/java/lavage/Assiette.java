@@ -8,7 +8,7 @@ public class Assiette {
 
 	public Assiette() {
         // Pour que la classe soit "thread safe" :
-		synchronized(this) {
+		synchronized(this) { //permet de controler l'accès aux ressources
 			numeroAssiette = ++nombreAssiettes;
 		}
 	}
